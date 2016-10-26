@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2016.5.2)  3 MAY 2016 22:12
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2016.5.2)  24 OCT 2016 16:08
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -593,21 +593,21 @@ File: t1lmss.fd 2009/10/30 v1.6 Font defs for Latin Modern
 (./jefferson.mendonca.aux)
 \openout1 = `jefferson.mendonca.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 44.
-LaTeX Font Info:    ... okay on input line 44.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 44.
-LaTeX Font Info:    ... okay on input line 44.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 44.
-LaTeX Font Info:    ... okay on input line 44.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 44.
-LaTeX Font Info:    ... okay on input line 44.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 44.
-LaTeX Font Info:    ... okay on input line 44.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 44.
-LaTeX Font Info:    ... okay on input line 44.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 44.
-LaTeX Font Info:    ... okay on input line 44.
-LaTeX Font Info:    Try loading font information for T1+lmr on input line 44.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 46.
+LaTeX Font Info:    ... okay on input line 46.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 46.
+LaTeX Font Info:    ... okay on input line 46.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 46.
+LaTeX Font Info:    ... okay on input line 46.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 46.
+LaTeX Font Info:    ... okay on input line 46.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 46.
+LaTeX Font Info:    ... okay on input line 46.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 46.
+LaTeX Font Info:    ... okay on input line 46.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 46.
+LaTeX Font Info:    ... okay on input line 46.
+LaTeX Font Info:    Try loading font information for T1+lmr on input line 46.
 
 (/usr/local/texlive/2015/texmf-dist/tex/latex/lm/t1lmr.fd
 File: t1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
@@ -675,7 +675,7 @@ e
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
 \AtBeginShipoutBox=\box27
-Package hyperref Info: Link coloring ON on input line 44.
+Package hyperref Info: Link coloring ON on input line 46.
 (/usr/local/texlive/2015/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
 
@@ -684,74 +684,74 @@ Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
 )
 \c@section@level=\count119
 )
-LaTeX Info: Redefining \ref on input line 44.
-LaTeX Info: Redefining \pageref on input line 44.
-LaTeX Info: Redefining \nameref on input line 44.
+LaTeX Info: Redefining \ref on input line 46.
+LaTeX Info: Redefining \pageref on input line 46.
+LaTeX Info: Redefining \nameref on input line 46.
 
 (./jefferson.mendonca.out) (./jefferson.mendonca.out)
 \@outlinefile=\write3
 \openout3 = `jefferson.mendonca.out'.
 
-Package hyperref Info: Option `breaklinks' set `true' on input line 44.
+Package hyperref Info: Option `breaklinks' set `true' on input line 46.
 
 
 Package hyperref Warning: Option `baseurl' has already been used,
-(hyperref)                setting the option has no effect on input line 44.
+(hyperref)                setting the option has no effect on input line 46.
 
 
 Package hyperref Warning: Option `pdfpagemode' has already been used,
-(hyperref)                setting the option has no effect on input line 44.
+(hyperref)                setting the option has no effect on input line 46.
 
 
 Package hyperref Warning: Option `pdfstartpage' has already been used,
-(hyperref)                setting the option has no effect on input line 44.
+(hyperref)                setting the option has no effect on input line 46.
 
-Package hyperref Info: Option `bookmarksopen' set `true' on input line 44.
+Package hyperref Info: Option `bookmarksopen' set `true' on input line 46.
 <linkedin.pdf, id=41, 34.22687pt x 34.3975pt>
 File: linkedin.pdf Graphic file (type pdf)
  <use linkedin.pdf>
-Package pdftex.def Info: linkedin.pdf used on input line 45.
+Package pdftex.def Info: linkedin.pdf used on input line 47.
 (pdftex.def)             Requested size: 8.95517pt x 9.0pt.
-LaTeX Font Info:    Try loading font information for OT1+lmr on input line 45.
+LaTeX Font Info:    Try loading font information for OT1+lmr on input line 47.
 
 (/usr/local/texlive/2015/texmf-dist/tex/latex/lm/ot1lmr.fd
 File: ot1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Try loading font information for OML+lmm on input line 45.
+LaTeX Font Info:    Try loading font information for OML+lmm on input line 47.
 
 (/usr/local/texlive/2015/texmf-dist/tex/latex/lm/omllmm.fd
 File: omllmm.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Try loading font information for OMS+lmsy on input line 45.
+LaTeX Font Info:    Try loading font information for OMS+lmsy on input line 47.
 
 
 (/usr/local/texlive/2015/texmf-dist/tex/latex/lm/omslmsy.fd
 File: omslmsy.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Try loading font information for OMX+lmex on input line 45.
+LaTeX Font Info:    Try loading font information for OMX+lmex on input line 47.
 
 
 (/usr/local/texlive/2015/texmf-dist/tex/latex/lm/omxlmex.fd
 File: omxlmex.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10.95> on input line 45.
+(Font)              <10.95> on input line 47.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <8> on input line 45.
+(Font)              <8> on input line 47.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <6> on input line 45.
+(Font)              <6> on input line 47.
 
-Underfull \hbox (badness 10000) in paragraph at lines 50--54
+Underfull \hbox (badness 10000) in paragraph at lines 52--56
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 56--57
+Underfull \hbox (badness 10000) in paragraph at lines 58--59
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 59--60
+Underfull \hbox (badness 10000) in paragraph at lines 60--61
 
  []
 
@@ -761,19 +761,11 @@ Underfull \hbox (badness 10000) in paragraph at lines 63--64
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 65--66
-
- []
-
-
 Underfull \hbox (badness 10000) in paragraph at lines 67--68
 
  []
 
-[1
 
-{/usr/local/texlive/2015/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <./linke
-din.pdf>]
 Underfull \hbox (badness 10000) in paragraph at lines 69--70
 
  []
@@ -783,7 +775,10 @@ Underfull \hbox (badness 10000) in paragraph at lines 71--72
 
  []
 
+[1
 
+{/usr/local/texlive/2015/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <./linke
+din.pdf>]
 Underfull \hbox (badness 10000) in paragraph at lines 73--74
 
  []
@@ -794,37 +789,37 @@ Underfull \hbox (badness 10000) in paragraph at lines 75--76
  []
 
 
-Underfull \hbox (badness 5050) in paragraph at lines 80--80
+Underfull \hbox (badness 10000) in paragraph at lines 77--78
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 79--80
+
+ []
+
+
+Underfull \hbox (badness 5050) in paragraph at lines 84--84
 []\T1/lmss/m/n/10 EJB, JSP, JSTL, JSF, Facelets,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 92--92
+Underfull \hbox (badness 10000) in paragraph at lines 96--96
 []\T1/lmss/m/n/10 Elastic BeansTalk, EC2, RDS,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 80--105
+Underfull \hbox (badness 10000) in paragraph at lines 84--109
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 109--115
+Underfull \hbox (badness 10000) in paragraph at lines 113--119
 
  []
 
 [2]
-Underfull \hbox (badness 10000) in paragraph at lines 117--119
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 125--126
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 127--128
+Underfull \hbox (badness 10000) in paragraph at lines 121--123
 
  []
 
@@ -833,12 +828,22 @@ Underfull \hbox (badness 10000) in paragraph at lines 129--130
 
  []
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 141.
+
+Underfull \hbox (badness 10000) in paragraph at lines 131--132
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 133--134
+
+ []
+
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 145.
 [3]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 141.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 145.
  (./jefferson.mendonca.aux)
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 141.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 141.
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 145.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 145.
 Package rerunfilecheck Info: File `jefferson.mendonca.out' has not changed.
 (rerunfilecheck)             Checksum: AE86113171737C58F368A243EE2EDF92;479.
  ) 
@@ -860,7 +865,7 @@ sso10.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/lm/lmsso12.pfb
 ></usr/local/texlive/2015/texmf-dist/fonts/type1/public/lm/lmsso17.pfb></usr/lo
 cal/texlive/2015/texmf-dist/fonts/type1/public/lm/lmsso9.pfb></usr/local/texliv
 e/2015/texmf-dist/fonts/type1/public/marvosym/marvosym.pfb>
-Output written on jefferson.mendonca.pdf (3 pages, 222173 bytes).
+Output written on jefferson.mendonca.pdf (3 pages, 222431 bytes).
 PDF statistics:
  109 PDF objects out of 1000 (max. 8388607)
  92 compressed objects within 1 object stream
