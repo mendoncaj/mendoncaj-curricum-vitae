@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2016.5.2)  3 JAN 2017 23:16
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2016.5.2)  5 JAN 2017 23:34
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -804,48 +804,53 @@ Underfull \hbox (badness 10000) in paragraph at lines 98--98
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 86--111
+Underfull \hbox (badness 10000) in paragraph at lines 104--104
+[]\T1/lmss/m/n/10 JavaScript, JQuery, An-gu-lar.js,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 86--108
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 115--121
+Underfull \hbox (badness 10000) in paragraph at lines 112--118
 
  []
 
 [2]
-Underfull \hbox (badness 10000) in paragraph at lines 123--125
+Underfull \hbox (badness 10000) in paragraph at lines 120--122
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 131--132
+Underfull \hbox (badness 10000) in paragraph at lines 128--129
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 133--134
+Underfull \hbox (badness 10000) in paragraph at lines 130--131
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 135--136
+Underfull \hbox (badness 10000) in paragraph at lines 132--133
 
  []
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 147.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 144.
 [3]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 147.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 144.
  (./jefferson.mendonca.aux)
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 147.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 147.
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 144.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 144.
 Package rerunfilecheck Info: File `jefferson.mendonca.out' has not changed.
 (rerunfilecheck)             Checksum: AE86113171737C58F368A243EE2EDF92;479.
  ) 
 Here is how much of TeX's memory you used:
  7629 strings out of 493089
  107635 string characters out of 6134843
- 225381 words of memory out of 5000000
+ 224390 words of memory out of 5000000
  10944 multiletter control sequences out of 15000+600000
  58422 words of font info for 42 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -860,7 +865,7 @@ sso10.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/lm/lmsso12.pfb
 ></usr/local/texlive/2015/texmf-dist/fonts/type1/public/lm/lmsso17.pfb></usr/lo
 cal/texlive/2015/texmf-dist/fonts/type1/public/lm/lmsso9.pfb></usr/local/texliv
 e/2015/texmf-dist/fonts/type1/public/marvosym/marvosym.pfb>
-Output written on jefferson.mendonca.pdf (3 pages, 220345 bytes).
+Output written on jefferson.mendonca.pdf (3 pages, 220107 bytes).
 PDF statistics:
  109 PDF objects out of 1000 (max. 8388607)
  92 compressed objects within 1 object stream
