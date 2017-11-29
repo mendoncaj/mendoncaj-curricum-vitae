@@ -1,0 +1,123 @@
+
+%%%%%%
+% Jefferson Carlos de Mendonca - curriculum vitae
+% Edited using vim and texmaker
+% Uses LaTeX and moderncv
+%%%%%%
+\documentclass[11pt,a4paper]{moderncv}
+\moderncvtheme[cyan]{classic}
+
+\usepackage[utf8]{inputenc} % character encoding
+\usepackage[T1]{fontenc}
+\usepackage[scale=0.8]{geometry} % adjust the page margins
+\usepackage{datenumber,fp}
+ 
+\PassOptionsToPackage{pdftex, 
+	colorlinks=true, 
+	urlcolor=cyan, 
+	linkcolor=cyan, 
+	filecolor=cyan, 
+	citecolor=cyan}{hyperref}
+ 
+\AtBeginDocument{\setlength{\maketitlenamewidth}{11,5cm}}
+\AtBeginDocument{\recomputelengths}
+
+% personal data
+\firstname{\fontsize{25}{30}\selectfont Jefferson Carlos}
+\familyname{\fontsize{25}{30}\selectfont de Mendonça}
+\title{Software Engineering}
+
+\address{Av. Dr. Orêncio Vidigal, 598 Apto. 51, Bl. 5}{Brazil - São Paulo, SP \\ CEP 03640-010}
+%%\phone{+55 (11) \hspace{1 mm}  2894-1051 }
+\mobile{+55 (11) 97411-4534}
+\email{jdev.mendonca@gmail.com}
+%\github{github.com/mendoncaj}
+\linkedin{linkedin.com/in/mendoncaj}
+% \photo[64pt]{picture}                         % '64pt' is the height the picture must be resized to and 'picture' is the name of the picture file;
+
+\quote{"Be the change that you wish to see in the world" - Mahatma Gandhi}       
+
+
+% --------------------------------------
+% CONTENT
+% --------------------------------------
+
+\begin{document}
+\maketitle
+
+\section{About}
+\cvcomputer
+{\textbf{Age}}{31 years}
+{\textbf{Marital status}}{Married}
+\cvcomputer
+{\textbf{Smoker}}{No}
+{\textbf{Children}}{No}
+
+\section{Education}
+\cventry{Sep 2016 -- Sep 2018}{Master degree in Computer Engineering}{}{Escola Politécnica da Universidade de São Paulo - USP}{Researcher in Text Mining - Stack Overflow Content}{}
+
+\cventry{Jan 2006 -- Dec 2010}{Bachelor in Computer Science}{}{Universidade Presbiteriana MACKENZIE}{}{}
+
+\section{Certification}
+\cventry{Aug - 2013}{OCJP}{Score 88\%}{Oracle Certified Java Programmer}{}{}
+
+\section{Work Experience}
+
+\cventry{Mar 2017 -- today}{Software Consultant}{}{\textbf{Summa Tech/BNP Paribas/Cardif}}{}{ Currently I'm working in applications for Finances such as Invoices, Receipt, Policy, Claim etc. I worked in a project to collect tons of data from partners and convert it into customers Policies. Recently I was integrated in the team that is developing services catalog to share the systems API's with the other areas of company, furthermore the public API's will released for exerternal partners in a short time. My everyday technology is Spring Integration, Spring Batch and TiBCO and our applications support company branches in Latin America Mexico, Panama, Colombia, Chile, Peru and Brazil.}	
+
+\cventry{Aug 2015 -- Feb 2017}{Web Developer IV}{}{\textbf{Editora Globo S.A}}{}{I worked directly planning an architecture to build mobiles apps in partnership with \textbf{Adobe Systems}. The apps was developed under a producted called \textbf{AEM-M}. The challenge was provide an integration between Adobe and the Content Managed System of our company developed in Python language. We change the way that journalists had delivered content in real time to customers, for that we built an asynchronous system to transport the content published in the company to Adobe AEM-M solution. The main technology used as Rabbit MQ and microservices to produce and collect data from one system and delivery into another one. It was the most importante project in my carrer.
+\newline \newline I contributed to an application to provide a faster way to journalists create content. We did some PoC's to found an open source solution such as \textbf{Draft.js} that allowed the journalists produce richer and flexible contents (text, images and videos). The stack used was NodeJS with Express and Mongoose for persist data.}
+
+\cventry{Apr 2014 -- Aug 2015}{Web Developer III}{}{\textbf{Editora Globo S.A}}{}{I compound the team that developed the first version of a \textbf{Middleware} that authorize the customers into our application. That was the first time that I have opportunit to work in a Scrum team. The authorization took into account three big systems Adobe Digital Publishing Suite (DPS), the E-commerce and the Financial System of our company. This time I've started using DynamoDB to track the magazines accesssed by the users and check if the user has a plan that allows him to consumes the content.}
+
+\cventry{Feb 2009 -- Mar 2014}{Web Developer}{}{\textbf{Editora Globo S.A}}{}{I contributed to create a Hot site named \textbf{GloboMagazines} offering (selling) digital magazines for the customers. I acted in the integration between the site and the Financial System of the company. The commucation was provided by SOAP protocol, to validate the business rules we had used HSQLDB and Mockito. 
+\newline \newline We too developed a product called \textbf{Mundo do Sítio} which was a platform for games and educational activities for children under ten. My work was to developed an area where the parents could manage the activities performed by their children such as time spent in the games or exercises, there they could extract graphics about the player evolution furthermore the system allowed parents to manage their accounts renewing, creating or canceling a subscription. The main techonologies used were JSF 1.2 e 2.0 com RichFaces 3.3 e 4.0.}
+
+\section{Main Skills}
+\cvcomputer
+{\textbf{Programming Languages}}{Java, C/C++, Python, NodeJS, R}
+{\textbf{Java Essentials}}{JAVA SE/EE, Spring MVC, CDI, JPA/Hibernate, JDBC, JOOQ, EhCache, Spring Integration, Spring Batch}
+\cvcomputer
+{\textbf{Amazon AWS}}{Elastic BeansTalk, EC2, RDS, Pipeline, DynamoDB}
+{\textbf{Web Services}}{Soap Jax-WS, Rest Jax-RS}
+\cvcomputer
+{\textbf{Template Engine}}{Apache Tiles, Freemarker, Velocity, Thymeleaf, XSLT}
+{\textbf{Application Server}}{Apache Tomcat, Glassfish, JBoss, 4.5 e 7.1, Websphere}
+\cvcomputer
+{\textbf{Test}}{JUnit, Mockito, Selenium, JMeter, Code Coverage, FindBugs}
+{\textbf{Build Tools}}{Ant, Maven, Gradle}
+\cvcomputer
+{\textbf{Database}}{Mysql, Oracle, MongoDB, Cassandra}
+{\textbf{Modeling and SOA}}{UML, ERD, TiBCO}
+\cvcomputer
+{\textbf{Code Management}}{Git, SVN - SubVersion}
+{\textbf{Front End}}{JavaScript, JQuery, Angular.js, React, HTML/CSS}
+\cvcomputer
+{\textbf{Miscellaneous}}{Scrum, Rabbit MQ}
+{}{}
+
+\section{Courses and Specializations}
+
+\cventry{Oct 2016}{Software Architect}{}{Global Code}{}{Duration 120 hs}
+\cventry{Aug 2015}{WSO2 ESB for Developers - Fundamentals}{}{WSO2}{}{Duration 40 hs}
+\cventry{Jul 2015}{JDK 8 Lambdas and Streams}{}{Oracle, Massive Open Online Course}{}{Duration 3 wk}
+\cventry{Mar 2015}{Architecting on AWS}{}{Amazon}{}{Duração 16 hs}
+\cventry{Dec 2013}{M101J: MongoDB for Java Developers}{}{Mongo University Online Course}{}{Duration 7 wk}
+\cventry{Dec 2010}{Python para Profissionais}{}{Luciano Ramalho}{}{Duration 40 hs}
+
+\section{Languages}
+\cvitem{Portuguese}{Mother Tongue}
+\cvitem{English}{Advanced, FCE First Certificate in English. \textbf{Vancouver, Canada}}
+
+% --------------------------------------
+% TRAVELS
+% --------------------------------------
+\section{Travels}
+
+\cvitem{USA}{Apr 2016 - Adobe Summit and some meetings about the project AEM-Mobile (DPS) \textbf{Las Vegas - Nevada}.}
+
+\cvitem{USA}{Sep 2015 - One week work with Adobe Engineering Team discussing improvemts for an integration between AEE-M and an in house solution called Mobileauth \textbf{Adobe Systems In São Francisco - California}.}
+
+\cvitem{Canada}{Aug 2014 - English Summer Interchange \textbf{Vancouver - British Columbia}.}
+
+\end{document}
