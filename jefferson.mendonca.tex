@@ -1,14 +1,13 @@
-
 %%%%%%
 % Jefferson Carlos de Mendonca - curriculum vitae
 % Edited using vim and texmaker
 % Uses LaTeX and moderncv
 %%%%%%
 \documentclass[11pt,a4paper]{moderncv}
-\moderncvtheme[cyan]{classic}
+\moderncvtheme{classic}
 
-\usepackage[utf8]{inputenc} % character encoding
-\usepackage[T1]{fontenc}
+
+\usepackage[utf8]{inputenc}
 \usepackage[scale=0.8]{geometry} % adjust the page margins
 \usepackage{datenumber,fp}
  
@@ -22,21 +21,22 @@
 \AtBeginDocument{\setlength{\maketitlenamewidth}{11,5cm}}
 \AtBeginDocument{\recomputelengths}
 
-% personal data
-\firstname{\fontsize{25}{30}\selectfont Jefferson Carlos}
-\familyname{\fontsize{25}{30}\selectfont de Mendon√ßa}
-%% \title{Analista Desenvolvedor Java}
-\title{Analista Desenvolvedor Java}
+%----------------------------------------------------------------------------------------
+%	NAME AND CONTACT INFORMATION SECTION
+%----------------------------------------------------------------------------------------
 
-\address{Av. Dr. Or√™ncio Vidigal, 598 Apto. 51, Bl. 5}{Penha - S√£o Paulo, SP \\ CEP 03640-010}
-%%\phone{+55 (11) \hspace{1 mm}  2894-1051 }
+\firstname{\fontsize{25}{30}\selectfont Jefferson}
+\familyname{\fontsize{25}{30}\selectfont MendonÁa}
+\title{Consultor de Software - Especialista Java}
+
+% All information in this block is optional, comment out any lines you don't need
+\address{Av. Dr. OrÍncio Vidigal, 598 Apto. 51, Bl. 5}{Penha - S„o Paulo - SP, CEP 03640-010}
 \mobile{+55 (11) 97411-4534}
 \email{jdev.mendonca@gmail.com}
-%\github{github.com/mendoncaj}
 \linkedin{linkedin.com/in/mendoncaj}
-% \photo[64pt]{picture}                         % '64pt' is the height the picture must be resized to and 'picture' is the name of the picture file;
 
-\quote{"Seja a mudan√ßa que voc√™ deseja para o mundo" - Mahatma Gandhi}       
+%\homepage{linkedin.com/in/mendoncaj}{linkedin.com/in/mendoncaj}
+\quote{"Seja a mudanÁa que vocÍ deseja para o mundo" - Mahatma Gandhi}
 
 
 % --------------------------------------
@@ -44,53 +44,82 @@
 % --------------------------------------
 
 \begin{document}
+
 \maketitle
 
 \section{Sobre}
 \cvcomputer
-{\textbf{Idade}}{30 anos}
+{\textbf{Idade}}{31 anos}
 {\textbf{Estado civil}}{Casado}
 \cvcomputer
-{\textbf{Fumante}}{N√£o}
-{\textbf{Filhos}}{N√£o}
+{\textbf{Fumante}}{N„o}
+{\textbf{Filhos}}{N„o}
 
-\section{Forma√ß\~{a}o Acad\^{e}mica}
-\cventry{Setembro 2016 -- Setembro 2018}{Escola Polit√©cnica da Universidade de S√£o Paulo - USP}{}{Mestrado em Engenharia da Computa√ß√£o}{}{}
+\section{FormaÁ„o AcadÍmica}
+\cventry{Setembro 2016 -- Setembro 2019}{Escola PolitÈcnica da Universidade de S„o Paulo - USP}{}{Mestrado em Engenharia da ComputaÁ„o}{}{}
 
-\cventry{Janeiro 2006 -- Dezembro 2010}{Universidade Presbiteriana MACKENZIE}{}{Ci√™ncias da Computa√ß√£o}{}{}
+\cventry{Janeiro 2006 -- Dezembro 2010}{Universidade Presbiteriana MACKENZIE}{}{CiÍncias da ComputaÁ„o}{}{}
 
-\section{Certifica√ß\~{a}o}
+\section{CertificaÁ„o}
 \cventry{Agosto - 2013}{OCJP}{Score 88\%}{Oracle Certified Java Programmer}{}{}
 
-\section{Experi√™ncia Profissional}
+\section{ExperiÍncia Profissional}
 
-\cventry{Mar√ßo 2017 -- Atualmente}{Consultor de Software}{}{\textbf{Summa Tech/BNP Paribas/Cardif}}{}{\textbf{Desenvolvimento de micro servi√ßos com TiBCO.} Contratado pela Summa Technologies para prestar consultoria ao Banco BNP Paribas na √°rea de seguros controlada pela empresa Cardif. Atuo na evolu√ß√£o das aplica√ß√µes de sinistros, seguros, faturas, recebimento entre outros. Aplica√ß√µes que utilizam Java, ActiveMQ, Hibernate e Spring Framework como principais tecnologias. Recentemente passei a compor o time respons√°vel pelo desenvolvimento e governan√ßa de servi√ßos utilizando a solu√ß√£o de \textbf{ESB Business Works da TiBCO}. Nesse projeto estamos desenvolvendo um \textbf{cat√°logo de servi√ßos} para abertura de sinistros, consulta de ap√≥lices e demais funcionalidades que ser√£o expostos para as aplica√ß√µes mobile do grupo na Am√©rica Latina. (M√©xico, Panam√°, Col√¥mbia, Chile, Peru, Brasil e Argentina).}
+\cventry{MarÁo 2017 -- Atualmente}{Consultor de Software}{}{\textbf{Cardif}}{}{\textbf{Desenvolvimento de micro serviÁos com TiBCO.} Atuo na evoluÁ„o das aplicaÁıes de sinistros, seguros, faturas, recebimento entre outros. AplicaÁıes que utilizam Java, ActiveMQ, Hibernate e Spring Framework como principais tecnologias. Recentemente passei a compor o time respons·vel pelo desenvolvimento e governanÁa de serviÁos utilizando a soluÁ„o de \textbf{ESB - Business Works TiBCO}. Nesse projeto estamos desenvolvendo um \textbf{cat·logo de serviÁos} para abertura de sinistros, consulta de apÛlices, terceiros e demais funcionalidades que ser„o expostos para as aplicaÁıes mobile do grupo na AmÈrica Latina. (MÈxico, Panam·, ColÙmbia, Chile, Peru e Brasil). 
+\\ \\ Atuei no desenvolvimento e manutenÁ„o de aplicaÁ„o para carga massiva de dados utilizando \textbf{Spring Batch/Spring Integration} e Jobs agendados para processamento de ciclos de vida de apÛlices. RefatoraÁ„o de cÛdigo, testes e correÁıes nos sistemas internos e ministrei treinamentos sobre padrıes de projetos e qualidade de software para o time de desenvolvimento da Cardif no MÈxico.} \\
 
 
-\cventry{Agosto 2015 -- Fevereiro 2017}{Desenvolvedor WEB IV}{}{\textbf{Editora Globo S.A}}{}{\textbf{Arquitetura e Modelagem dos novos aplicativos da Editora Globo.} Os aplicativos foram desenvolvidos utilizando a plataforma AEM-M da Adobe. O grande desafio deste projeto foi integrar o CMS de publica√ß√£o de conte√∫do (mat√©rias jornal√≠sticas) com a plataforma da Adobe. Um de nossos aplicativos foi desenvolvido com outra empresa do \textbf{Grupo Globo} o \textbf{Infoglobo}. Atuei na arquitetura da solu√ß√£o para garantir um workflow entre os sistemas das empresas. Nesse projeto tamb√©m atuei na integra√ß√£o com a plataforma de autentica√ß√£o da \textbf{globo.com} chamada de GloboID a mesma utilizada pelos servi√ßos \textbf{Globo Play} e \textbf{Cartola}. Dentre as diversas tecnologias utilizadas destaco o controle de mensagens (Produtor vs Consumidor) utilizando filas de gerenciamento \textbf{Rabbit MQ}, Log Centralizado \textbf{MongoDB} e WebServices (Soap e Rest). 
-\newline \newline Tamb√©m atuei numa aplica√ß√£o em \textbf{NodeJS} com \textbf{Mongoose} para apresentar uma nova proposta de editor de texto web, em que os jornalistas tivessem uma maior agilidade e flexibilidade na composi√ß√£o de mat√©rias jornal√≠sticas e publicit√°rias. }
+\cventry{Agosto 2015 -- Fevereiro 2017}{LÌder TÈcnico}{}{\textbf{Editora Globo S.A}}{}{\textbf{Arquitetura e Modelagem dos novos aplicativos da Editora Globo.} Os aplicativos foram desenvolvidos utilizando a plataforma AEM-M da Adobe. O grande desafio deste projeto foi integrar o CMS de publicaÁ„o de conte˙do (matÈrias jornalÌ≠sticas) com a plataforma da Adobe. Um de nossos aplicativos foi desenvolvido com o Infoglobo - outra empresa do \textbf{Grupo Globo}. Atuei na arquitetura da soluÁ„o para garantir as integraÁıes entre os diversos sistemas das empresas. Nesse projeto tambÈm atuei com a plataforma de autenticaÁ„o da \textbf{globo.com} chamada de GloboID a mesma utilizada pelos serviÁos \textbf{Globo Play} e \textbf{Cartola}. Dentre as diversas tecnologias utilizadas destaco o controle de mensagens (Produtor vs Consumidor) utilizando filas de gerenciamento no \textbf{Rabbit MQ}, Log Centralizado \textbf{MongoDB} e WebServices (Soap e Rest). 
+\newline \newline Trabalhei numa aplicaÁ„o em \textbf{NodeJS} com \textbf{Mongoose} para propor alternativas de editores de texto web, com o intuito de os jornalistas terem maior agilidade e flexibilidade na composiÁ„o de matÈrias jornalÌsticas e publicit·rias.} \\
 
-\cventry{Abril 2014 -- Agosto 2015}{Desenvolvedor WEB III}{}{\textbf{Editora Globo S.A}}{}{\textbf{Desenvolvimento de um Middleware para autoriza√ß√£o √†s plataformas digitais.} Integra√ß√£o entre o sistema de assinaturas da Editora Globo com o Adobe Digital Publishing e o E-commerce da empresa. Projeto web desenvolvido em Java EE 6, com endpoints implementados em Rest JAX-RS e SOAP JAX-WS, inje√ß√£o de depend√™ncia (CDI Weld) e  acesso a dados com JPA. Al√©m das tecnologias citadas, utilizamos DynamoDB, JUnit, Mockito e Eclemma (code coverage) com estimativas baseadas em metodologias √°geis tais como XP e Scrum.}
 
-\cventry{Junho 2013 -- Mar√ßo 2014}{Desenvolvedor WEB II}{}{Editora Globo S.A}{}{\textbf{GloboMagazines.} Hot site para venda de assinaturas digitais das revistas da Editora Globo. Camada web desenvolvida em Spring MVC, na valida√ß√£o do lado do servidor utilizamos Beans Validation, nossa engine de templates est√° em Apache Tiles e no front end utilizamos Javascript com Jquery. As Regras de Neg√≥cio est√£o distribu√≠das no e-commerce e no projeto Mobileauth as integra√ß√µes com esses sistemas foram implementadas com SOAP JAX-WS e Rest JAX-RS. Para build, e deploy e ger√™ncia de depend√™ncias utilizamos Maven e para controle de vers√µes Git.}
+\cventry{Junho 2013 -- Agosto 2015}{Desenvolvedor WEB III}{}{\textbf{Editora Globo S.A}}{}{\textbf{Desenvolvimento de um Middleware para autorizaÁ„o ‡s plataformas digitais.} IntegraÁ„o entre o sistema de assinaturas da Editora Globo com o Adobe Digital Publishing e o E-commerce da empresa. Projeto web desenvolvido em Java EE 6, com endpoints implementados em Rest JAX-RS e SOAP JAX-WS, injeÁ„o de dependÍncia (CDI Weld) e  acesso a dados com JPA. AlÈm das tecnologias citadas, utilizamos DynamoDB, JUnit, Mockito e Eclemma (code coverage) com estimativas baseadas em Metodologias ¡geis tais como Scrum e Kanban.
+\\ Atuei no desenvolvimento de um Hot site para venda de assinaturas digitais das revistas da Editora Globo. Sendo a aamada web desenvolvida em Spring MVC e engine de templates em Apache Tiles, com integraÁıes via Web Services com o e-commerce e o sistema de assinturas da empresa} \\
 
-\cventry{Maio 2011 -- Maio 2013}{Desenvolvedor WEB I}{}{Editora Globo S.A}{}{\textbf{Mundo do S√≠tio, ambiente virtual com atividades e jogos e educativos.} Colaborei no desenvolvimento do "Cantinho dos Pais" - √Årea restrita onde os pais podiam gerenciar suas assinaturas e visualizar as informa√ß√µes gerada por seus filhos, como por exemplos os jogos mais acessados, tempo de atividades, mensagens trocadas etc. Para ilustrar estas informa√ß√µes, tabelas e gr√°ficos eram disponibilizados. O desenvolvimento desse site administrativo foi feito em JSF 1.2 e 2.0 com RichFaces 3.3 e 4.0.}
 
-\cventry{Outubro 2009 -- Abril 2011}{Analista Programador}{}{Editora Globo S.A}{}{Aux√≠lio nas etapas de desenvolvimento e testes de sites web, Revista √âpoca, Revista Auto Esporte, Revista Crescer. Cria√ß√£o de p√°ginas web utilizando JSP e Servlet 2.5 e transforma√ß√£o de dados para envio de email utilizando XSTL.}
+\cventry{Maio 2011 -- Maio 2013}{Desenvolvedor WEB II}{}{Editora Globo S.A}{}{\textbf{Mundo do SÌtio, ambiente virtual com atividades e jogos e educativos.} Colaborei no desenvolvimento do "Cantinho dos Pais" - ¡rea restrita onde os pais podiam gerenciar suas assinaturas e visualizar as informaÁıes gerada por seus filhos, como por exemplos os jogos mais acessados, tempo de atividades, mensagens trocadas etc. Para ilustrar estas informaÁıees, tabelas e gr·ficos eram disponibilizados. O desenvolvimento desse site administrativo foi feito em JSF 1.2 e 2.0 com RichFaces 3.3 e 4.0.} \\
 
-\cventry{Fevereiro 2009 -- Setembro 2009}{Estagi√°rio}{Desenvolvedor de Sistemas}{Editora Globo S.A}{}{Corre√ß√µes pontuais em sites web, manuten√ß√£o e restrutura√ß√£o do site "Livros para uma cuca bacana" (desenvolvido em ASP cl√°ssico). Cria√ß√£o de Quiz e Concursos Culturais utilizando Html, JS e Jquery.}
 
-%%\cventry{Fevereiro 2008 -- Janeiro 2009}{Estagi√°rio}{Analista de Seguran√ßa Digital}{\textbf{Nextel Telecomunica√ß√µes Ltda}}{}{Atender solicita√ß√µes de acesso a sistemas, diret√≥rio de rede, caixas postais e listas de distribui√ß√µes. Auxiliar na elabora√ß√£o e documenta√ß√£o de programas. Avalia√ß√£o de novos sistemas administrativos e corporativos, testar novas fases e melhorias de sistemas.}
+\cventry{Fevereiro 2009 -- Abril 2011}{Analista Programador}{}{Editora Globo S.A}{}{AuxÌ≠lio nas etapas de desenvolvimento e testes de sites web como: Revista …poca, Revista Auto Esporte, Revista Crescer etc. CriaÁ„o de p·ginas web utilizando JSP e Servlet 2.5 e transformaÁ„o de dados para envio de email utilizando XSTL e correÁıes pontuais em site, manutenÁ„o e restruturaÁ„o do site "Livros para uma cuca bacana" (desenvolvido em ASP cl·ssico). CriaÁ„o de Quiz e Concursos Culturais utilizando Html, JS e Jquery.} \\
 
-%%\cventry{Fevereiro 2004 -- Dezembro 2005}{Estagi√°rio}{Assistente Administrativo}{\textbf{Banco do Brasil S.A}}{}{Monitoramento dos terminais de Auto Atendimento (AAT), para preven√ß√£o ou corre√ß√£o de falhas atrav√©s de sistemas de controle online. Elabora√ß√£o de manuais dos softwares e aplica√ß√µes utilizadas. Treinamento de novos estagi√°rios contratados.}
+% --------------------------------------
+% TRAVELS
+% --------------------------------------
+\section{Viagens}
 
-\section{Habilidades T√©cnicas}
+\cvitem{MÈxico}{MarÁo de 2018 - InstalaÁ„o e estabilizaÁ„o de novas versıes de softwares e realizaÁ„o de treinamentos sobre Modelo de Dados, Padrıes de Projetos, OrientaÁ„o a Objetos e Qualidade de Software. \textbf{Cardif - Cidade do MÈxico}.}
+
+\cvitem{MÈxico}{Janeiro de 2018 - Desenvolvimento e correÁ„o de sistemas (plugins desenvolvidos no paÌs), treinamento sobre testes unit·rios e de integraÁ„o. \textbf{Cardif - Cidade do MÈxico}.}
+
+\cvitem{Estados Unidos}{Abril de 2016 - Adobe Summit e reuni„o de alinhamento para o projeto AEM-Mobile (DPS) em \textbf{Las Vegas - Nevada}.}
+
+\cvitem{Estados Unidos}{Setembro de 2015 - Reuni„o de alinhamento para o projeto New DPS 2015 (Mobileauth) na sede da Adobe Systems, localizado em \textbf{S„o Francisco - CalifÛrnia}.}
+
+\cvitem{Canad·}{Agosto de 2014 - Intercambio de ver„o em \textbf{Vancouver - British Columbia}.}
+
+\section{Cursos e EspecializaÁıes}
+
+\cventry{Junho 2017}{Integration Patterns com Apache Camel e Spring Integration}{}{Elder da Rocha}{}{DuraÁ„o 40 horas}
+\cventry{Outubro 2015}{Arquiteto de Software}{}{Global Code}{}{DuraÁ„o 120 horas}
+\cventry{Agosto 2015}{WSO2 ESB for Developers - Fundamentals}{}{WSO2}{}{DuraÁ„o 40 horas}
+\cventry{Julho 2015}{JDK 8 Lambdas and Streams}{}{Oracle, Massive Open Online Course}{}{DuraÁ„o 3 semanas}
+\cventry{MarÁo 2015}{Architecting on AWS}{}{Amazon}{}{DuraÁ„o 16 horas}
+\cventry{Dezembro 2013}{M101J: MongoDB for Java Developers}{}{Mongo University Online Course}{}{DuraÁ„o 7 semanas}
+\cventry{Dezembro 2010}{Python para Profissionais}{}{Luciano Ramalho}{}{DuraÁ„o 40 horas}
+
+\section{Idiomas}
+\cvitem{PortuguÍs}{Nativo}
+\cvitem{InglÍs}{AvanÁado, FCE First Certificate in English. \textbf{Vancouver, Canad·}}
+\cvitem{Espanhol}{B·sico}
+
+
+\section{Habilidades TÈcnicas}
 \cvcomputer
 {\textbf{Java Essentials}}{EJB, JSP, JSTL, JSF, Facelets, JAVA EE, Spring MVC, CDI, JAVA SE, JPA/Hibernate/EhCache, JDBC, JOOQ, XSLT}
-{\textbf{Programming Languages}}{Java, C/C++, Python, NodeJS, ASP Cl√°ssico}
+{\textbf{Programming Languages}}{Java, C/C++, Python, NodeJS, ASP Cl·ssico}
 \cvcomputer
 {\textbf{Web Services}}{Soap - Jax-WS, Rest Jax-RS}
-{\textbf{Continuous Integration}}{Jenkins, Sonar Qube}
+{\textbf{Miscellaneous}}{Scrum, Kanban, Sonar Qube, JMS - Rabbit MQ}
 \cvcomputer
 {\textbf{Template Engine}}{Apache Tiles, Freemarker, Velocity}
 {\textbf{Data Parser}}{Jackson JSON, JAXB, JDOM, XmlBeans, Xstream, Apache POI - Excel Framework}
@@ -106,43 +135,16 @@
 \cvcomputer
 {\textbf{Code Management}}{Git, SVN - SubVersion}
 {\textbf{Front End}}{JavaScript, JQuery, Angular.js, HTML/CSS}
-\cvcomputer
-{\textbf{Miscellaneous}}{Scrum, Rabbit MQ}
 {}{}
-
-
-\section{Cursos e Especializa√ß\~{o}es}
-
-\cventry{Outubro 2015}{Arquiteto de Software}{}{Global Code}{}{Dura√ß√£o 120 horas}
-\cventry{Agosto 2015}{WSO2 ESB for Developers - Fundamentals}{}{WSO2}{}{Dura√ß√£o 40 horas}
-\cventry{Julho 2015}{JDK 8 Lambdas and Streams}{}{Oracle, Massive Open Online Course}{}{Dura√ß√£o 3 semanas}
-\cventry{Mar√ßo 2015}{Architecting on AWS}{}{Amazon}{}{Dura√ß√£o 16 horas}
-\cventry{Dezembro 2013}{M101J: MongoDB for Java Developers}{}{Mongo University Online Course}{}{Dura√ß√£o 7 semanas}
-\cventry{Dezembro 2010}{Python para Profissionais}{}{Luciano Ramalho}{}{Dura√ß√£o 40 horas}
-
-\section{Idiomas}
-\cvitem{Portugu√™s}{Nativo}
-\cvitem{Ingl√™s}{Avan√ßado, FCE First Certificate in English. \textbf{Vancouver, Canad√°}}
-
-% --------------------------------------
-% TRAVELS
-% --------------------------------------
-\section{Viagens}
-
-\cvitem{Estados Unidos}{Abril de 2016 - Adobe Summit e reuni√£o de alinhamento para o projeto AEM-Mobile (DPS) em \textbf{Las Vegas - Nevada}.}
-
-\cvitem{Estados Unidos}{Setembro de 2015 - Reuni√£o de alinhamento para o projeto New DPS 2015 (Mobileauth) na sede da Adobe Systems, localizado em \textbf{S√£o Francisco - Calif√≥rnia}.}
-
-\cvitem{Canad√°}{Agosto de 2014 - Interc√¢mbio de ver√£o em \textbf{Vancouver - British Columbia}.}
 
 % --------------------------------------
 % INTERESTS HOBBIES
 % --------------------------------------
 \section{Interesses e Hobbies}
 
-\cvitem{Indispens√°vel}{Estar com a minha esposa, fam\'{i}lia e amigos, de prefer√™ncia vendo o mar.}
-\cvitem{Necess√°rio}{Conhecer novas t√©cnologias, praticar esportes - corrida e nata√ß√£o.}
-\cvitem{Descontrair}{Assistir s√©ries, document√°rios e NFL, al√©m de jogar v√≠deo game.}
+\cvitem{Indispens·vel}{Estar com a minha esposa, famÌlia e amigos, de preferÍncia vendo o mar.}
+\cvitem{Necess·rio}{Conhecer novas tecnologias, praticar esportes - corrida e nataÁ„o.}
+\cvitem{Descontrair}{Assistir sÈries, document·rios e NFL, alÈm de jogar vÌdeo game.}
 \cvitem{Prazer}{Tocar bateria, ouvir Rock n' Roll, AC/DC, Rolling Stones, Ozzy Osbourne, Dio e muito mais}
 % --------------------------------------
 \end{document}

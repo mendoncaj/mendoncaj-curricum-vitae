@@ -1,0 +1,156 @@
+%%%%%%
+% Jefferson Carlos de Mendonca - curriculum vitae
+% Edited using vim and texmaker
+% Uses LaTeX and moderncv
+%%%%%%
+\documentclass[11pt,a4paper]{moderncv}
+\moderncvtheme{classic}
+
+
+\usepackage[utf8]{inputenc}
+\usepackage[scale=0.8]{geometry} % adjust the page margins
+\usepackage{datenumber,fp}
+ 
+\PassOptionsToPackage{pdftex, 
+	colorlinks=true, 
+	urlcolor=cyan, 
+	linkcolor=cyan, 
+	filecolor=cyan, 
+	citecolor=cyan}{hyperref}
+ 
+\AtBeginDocument{\setlength{\maketitlenamewidth}{11,5cm}}
+\AtBeginDocument{\recomputelengths}
+
+%----------------------------------------------------------------------------------------
+%	NAME AND CONTACT INFORMATION SECTION
+%----------------------------------------------------------------------------------------
+
+\firstname{\fontsize{25}{30}\selectfont Jefferson}
+\familyname{\fontsize{25}{30}\selectfont Mendonça}
+\title{Consultor de Software - Especialista Java}
+
+% All information in this block is optional, comment out any lines you don't need
+\address{Av. Dr. Orêncio Vidigal, 598 Apto. 51, Bl. 5}{Penha - São Paulo - SP, CEP 03640-010}
+\mobile{+55 (11) 97411-4534}
+\email{jdev.mendonca@gmail.com}
+\linkedin{linkedin.com/in/mendoncaj}
+
+%\homepage{linkedin.com/in/mendoncaj}{linkedin.com/in/mendoncaj}
+\quote{"Seja a mudança que você deseja para o mundo" - Mahatma Gandhi}   
+
+
+% --------------------------------------
+% CONTENT
+% --------------------------------------
+
+\begin{document}
+
+\maketitle
+
+\section{Sobre}
+\cvcomputer
+{\textbf{Idade}}{31 anos}
+{\textbf{Estado civil}}{Casado}
+\cvcomputer
+{\textbf{Fumante}}{Não}
+{\textbf{Filhos}}{Não}
+
+\section{Formação Acadêmica}
+\cventry{Setembro 2016 -- Setembro 2019}{Escola Politécnica da Universidade de São Paulo - USP}{}{Mestrado em Engenharia da Computação}{}{}
+
+\cventry{Janeiro 2006 -- Dezembro 2010}{Universidade Presbiteriana MACKENZIE}{}{Ciências da Computação}{}{}
+
+\section{Certificação}
+\cventry{Agosto - 2013}{OCJP}{Score 88\%}{Oracle Certified Java Programmer}{}{}
+
+\section{Experiência Profissional}
+
+\cventry{Março 2017 -- Atualmente}{Consultor de Software}{}{\textbf{Cardif}}{}{\textbf{Desenvolvimento de micro serviços com TiBCO.} Atuo na evolução das aplicações de sinistros, seguros, faturas, recebimento entre outros. Aplicações que utilizam Java, ActiveMQ, Hibernate e Spring Framework como principais tecnologias. Componho o time responsável pelo desenvolvimento e governança de serviços utilizando a solução de \textbf{ESB - Business Works TiBCO}. Nesse projeto estamos desenvolvendo um \textbf{catálogo de serviços} para abertura de sinistros, consulta de apólices, terceiros e demais funcionalidades que serão expostos para as aplicações mobile do grupo na América Latina. (México, Panamá, Colômbia, Chile, Peru e Brasil). 
+\\ \\ Atuei no desenvolvimento e manutenção de aplicação para carga massiva de dados utilizando \textbf{Spring Batch/Spring Integration} e Jobs agendados para processamento de ciclos de vida de apólices. Refatoração de código, testes e correções nos sistemas internos e ministrei treinamentos sobre padrões de projetos e qualidade de software para o time de desenvolvimento da Cardif no México.} \\
+
+
+\cventry{Agosto 2015 -- Fevereiro 2017}{Líder Técnico}{}{\textbf{Editora Globo S.A}}{}{\textbf{Arquitetura e Modelagem dos novos aplicativos da Editora Globo.} Os aplicativos foram desenvolvidos utilizando a plataforma AEM-M da Adobe. O grande desafio deste projeto foi integrar o CMS de publicação de conteúdo (matérias jornalí­sticas) com a plataforma da Adobe. Um de nossos aplicativos foi desenvolvido com o Infoglobo - outra empresa do \textbf{Grupo Globo}. Atuei na arquitetura da solução para garantir as integrações entre os diversos sistemas das empresas. Nesse projeto também atuei com a plataforma de autenticação da \textbf{globo.com} chamada de GloboID a mesma utilizada pelos serviços \textbf{Globo Play} e \textbf{Cartola}. Dentre as diversas tecnologias utilizadas destaco o controle de mensagens (Produtor vs Consumidor) utilizando filas de gerenciamento no \textbf{Rabbit MQ}, Log Centralizado \textbf{MongoDB} e WebServices (Soap e Rest). 
+\newline \newline Trabalhei na aplicação em \textbf{NodeJS} com \textbf{Mongoose} para propor alternativas de editores de texto web, com o intuito de os jornalistas terem maior agilidade e flexibilidade na composição de matérias jornalísticas e publicitárias.} \\
+
+
+\cventry{Junho 2013 -- Agosto 2015}{Desenvolvedor WEB III}{}{\textbf{Editora Globo S.A}}{}{\textbf{Desenvolvimento de um Middleware para autorização às plataformas digitais.} Integração entre o sistema de assinaturas da Editora Globo com o Adobe Digital Publishing e o E-commerce da empresa. Projeto web desenvolvido em Java EE 6, com endpoints implementados em Rest JAX-RS e SOAP JAX-WS, injeção de dependência (CDI Weld) e  acesso a dados com JPA. Além das tecnologias citadas, utilizamos DynamoDB, JUnit, Mockito e Eclemma (code coverage) com estimativas baseadas em Metodologias Ágeis tais como Scrum e Kanban.
+\\ \\ Atuei no desenvolvimento de um Hot site para venda de assinaturas digitais das revistas da Editora Globo. Sendo a aamada web desenvolvida em Spring MVC e engine de templates em Apache Tiles, com integrações via Web Services com o e-commerce e o sistema de assinturas da empresa} \\
+
+
+\cventry{Maio 2011 -- Maio 2013}{Desenvolvedor WEB II}{}{Editora Globo S.A}{}{\textbf{Mundo do Sítio, ambiente virtual com atividades e jogos e educativos.} Colaborei no desenvolvimento do "Cantinho dos Pais" - Área restrita onde os pais podiam gerenciar suas assinaturas e visualizar as informações gerada por seus filhos, como por exemplos os jogos mais acessados, tempo de atividades, mensagens trocadas etc. Para ilustrar estas informaçõees, tabelas e gráficos eram disponibilizados. O desenvolvimento desse site administrativo foi feito em JSF 1.2 e 2.0 com RichFaces 3.3 e 4.0.} \\
+
+
+\cventry{Fevereiro 2009 -- Abril 2011}{Analista Programador}{}{Editora Globo S.A}{}{Auxí­lio nas etapas de desenvolvimento e testes dos sites: Revista Época, Revista Auto Esporte, Revista Crescer etc. Criação de páginas web utilizando JSP e Servlet 2.5 e transformação de dados para envio de email utilizando XSTL. 
+\\ \\ Trabalhei em correções pontuais, manutenção e restruturação do site "Livros para uma cuca bacana" (desenvolvido em ASP clássico). Criação de Quiz e Concursos Culturais utilizando Html, JS e Jquery.} \\
+
+% --------------------------------------
+% TRAVELS
+% --------------------------------------
+\section{Viagens}
+
+\cvitem{México}{Março de 2018 - Instalação e estabilização de novas versões de softwares e realização de treinamentos sobre Modelo de Dados, Padrões de Projetos, Orientação a Objetos e Qualidade de Software. \textbf{Cardif - Cidade do México}.}
+
+\cvitem{México}{Janeiro de 2018 - Desenvolvimento e correção de sistemas (plugins desenvolvidos no país), treinamento sobre testes unitários e de integração. \textbf{Cardif - Cidade do México}.}
+
+\cvitem{Estados Unidos}{Abril de 2016 - Adobe Summit e reunião de alinhamento para o projeto AEM-Mobile (DPS) em \textbf{Las Vegas - Nevada}.}
+
+\cvitem{Estados Unidos}{Setembro de 2015 - Reunião de alinhamento para o projeto New DPS 2015 (Mobileauth) na sede da Adobe Systems, com desenvolvimento para consumo de API's e testes com os engenheiros da Adobe, localizado em \textbf{São Francisco - Califórnia}.}
+
+\cvitem{Canadá}{Agosto de 2014 - Intercambio de verão em \textbf{Vancouver - British Columbia}.}
+
+
+% --------------------------------------
+% Courses
+% --------------------------------------
+
+\section{Cursos e Especializações}
+
+\cventry{Junho 2017}{Integration Patterns com Apache Camel e Spring Integration}{}{Elder da Rocha}{}{Duração 40 horas}
+\cventry{Outubro 2015}{Arquiteto de Software}{}{Global Code}{}{Duração 120 horas}
+\cventry{Agosto 2015}{WSO2 ESB for Developers - Fundamentals}{}{WSO2}{}{Duração 40 horas}
+\cventry{Julho 2015}{JDK 8 Lambdas and Streams}{}{Oracle, Massive Open Online Course}{}{Duração 3 semanas}
+\cventry{Março 2015}{Architecting on AWS}{}{Amazon}{}{Duração 16 horas}
+\cventry{Dezembro 2013}{M101J: MongoDB for Java Developers}{}{Mongo University Online Course}{}{Duração 7 semanas}
+\cventry{Dezembro 2010}{Python para Profissionais}{}{Luciano Ramalho}{}{Duração 40 horas}
+
+\section{Idiomas}
+\cvitem{Português}{Nativo}
+\cvitem{Inglês}{Avançado}
+\cvitem{Espanhol}{Básico}
+
+
+\section{Habilidades Técnicas}
+\cvcomputer
+{\textbf{Java Essentials}}{EJB, JSP, JSTL, JSF, Facelets, JAVA EE, Spring MVC, CDI, JAVA SE, JPA/Hibernate/EhCache, JDBC, JOOQ, XSLT}
+{\textbf{Programming Languages}}{Java, C/C++, Python, NodeJS, ASP Clássico}
+\cvcomputer
+{\textbf{Web Services}}{Soap - Jax-WS, Rest Jax-RS}
+{\textbf{Miscellaneous}}{Scrum, Kanban, Sonar Qube, JMS - Rabbit MQ}
+\cvcomputer
+{\textbf{Template Engine}}{Apache Tiles, Freemarker, Velocity}
+{\textbf{Data Parser}}{Jackson JSON, JAXB, JDOM, XmlBeans, Xstream, Apache POI - Excel Framework}
+\cvcomputer
+{\textbf{Test}}{JUnit, Mockito, Selenium, JMeter, Cobertura, Code Coverage, FindBugs}
+{\textbf{Build Tools}}{Ant, Maven, Gradle}
+\cvcomputer
+{\textbf{Application Server}}{Apache Tomcat, Glassfish, JBoss, 4.5 e 7.1, Websphere}
+{\textbf{Amazon AWS}}{Elastic BeansTalk, EC2, RDS, Pipeline, DynamoDB}
+\cvcomputer
+{\textbf{Database}}{Mysql, Oracle, MongoDB}
+{\textbf{Modeling and SOA}}{UML, ER - Entidade Relacionamento, ESB TiBCO, WSO2}
+\cvcomputer
+{\textbf{Code Management}}{Git, SVN - SubVersion}
+{\textbf{Front End}}{JavaScript, JQuery, Angular.js, HTML/CSS}
+{}{}
+
+% --------------------------------------
+% INTERESTS HOBBIES
+% --------------------------------------
+\section{Interesses e Hobbies}
+
+\cvitem{Indispensável}{Estar com a minha esposa, família e amigos, de preferência vendo o mar.}
+\cvitem{Necessário}{Conhecer novas tecnologias, praticar esportes - corrida e natação.}
+\cvitem{Descontrair}{Assistir séries, documentários e NFL, além de jogar vídeo game.}
+\cvitem{Prazer}{Tocar bateria, ouvir Rock n' Roll, AC/DC, Rolling Stones, Ozzy Osbourne, Dio e outros.}
+% --------------------------------------
+\end{document}
